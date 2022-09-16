@@ -1,0 +1,21 @@
+<html>
+  
+<body>
+
+    <svg width="800" height="400" 
+        style="background-color: aqua;">
+
+        <circle cx="400" cy="450" r="300" stroke="none" 
+            stroke-width="2" fill="yellow" />
+        <circle cx="400" cy="450" r="250" stroke="none" 
+            stroke-width="2" fill="green" />
+        <circle cx="400" cy="450" r="200" stroke="none" 
+            stroke-width="2" fill="blue" />
+        <circle cx="400" cy="450" r="150" stroke="none" 
+            stroke-width="2" fill="indigo" />
+        <circle cx="400" cy="450" r="100" stroke="none" 
+            stroke-width="2" fill="violet" />
+    </svg>
+</body>
+  
+</html>
