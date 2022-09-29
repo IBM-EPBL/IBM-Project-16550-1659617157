@@ -1,0 +1,16 @@
+<form action = "{{ url_for('addrec') }}" method = "POST">
+    <h3>User Information</h3>
+    E-mail<br>
+    <input type = "email" name = "email" /></br>
+   
+    Username<br>
+    <input type = "text" name = "username" /></br>
+   
+    Rollnumber<br>
+    <input type = "text" name = "rollnumber" /><br>
+   
+    PIN<br>
+    <input type = "password" name = "pin" min="4" max="8" /><br><br>
+    <input type = "submit" value = "submit" /><p>     </p>
+    <input type = "reset"/>
+ </form>
