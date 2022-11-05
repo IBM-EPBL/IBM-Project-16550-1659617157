@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>
+      Sign up
+    </title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXplIKDHO8_ILYu7rGz_N6ILrkL0ZBBb4G8A&usqp=CAU');
+      }
+      *{
+        box-sizing: border-box;
+      }
+      .container {
+        padding: 16px;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        height: 5px;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border-color: black;
+        outline: none;
+        background: rgb(240, 240, 241);
+      }
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      .registerbtn {
+        background-color: rgba(61, 106, 117, 0.925);
+        text-align: center;
+        color: rgb(238, 233, 233);
+        padding: 16px 20px;
+        margin: 8px;
+        cursor: pointer;
+        width: 20%;
+        opacity: 0.9;
+      }
+      .registerbtn:hover {
+        opacity: 1;
+      }
+      a {
+        color: rgb(0, 38, 255);
+      }
+      .login{
+          background-color: rgb(248, 242, 242);
+          width:20%;
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h2 style="color:#ddd">Sign up</h2>
+        <p style="color:#ddd">Please fill this form to create an account</p>
+        <hr />
+        <label style="color:#ddd">Name</label>
+        <input type="text" placeholder="Name" />
+        <br />
+        <label style="color:#ddd">Email</label>
+        <input type="email" placeholder="Email" />
+        <br />
+        <label style="color:#ddd">Password</label>
+        <input type="password" placeholder="Password" />
+        <br />
+        <label style="color:#ddd">Contact number</label>
+        <input type="phonenumber" placeholder="Contact number" />
+        <p style="color:rgb(240, 230, 230)">
+          By creating an account you agree to our
+          <a href="https://media.istockphoto.com/photos/terms-and-conditions-picture-id185258639?b=1&k=20&m=185258639&s=170667a&w=0&h=x_e1En4XCadrpX1pKPn5j04NJ0YX9aNX3FmKYgVMids=">Terms and Privacy</a>
+        </p>
+
+        <button class="registerbtn">Sign Up</button>
+      
+        <div class="login">
+        <p >Already have account?<a href="login.html">Login</a></p>
+      </form>
+    </div>
+</div>
+  </body>
+</html>
