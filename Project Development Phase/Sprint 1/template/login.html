@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>
+            welcome to Login page.
+        </title>
+        <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input[type=text],input[type=password]{
+            width:100%;
+            padding: 12px 20px;
+            margin:8px 0;
+            display:inline-block;
+            border: 1px solid #ccc;
+            box-sizing:border-box;
+        }
+        button{
+            background-color: green;
+            color: white;
+            padding:14px 20px;
+            margin:8px 0;
+            border:none;
+            cursor:pointer;
+            width:100%;
+        }
+        button:hover{
+            opacity:0.8;
+        }
+        .imgcontainer{
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position:relative;
+
+        }
+        img.avatar{
+            width:36%;
+            border-radius: 40%;
+        }
+        .modal{
+            background-color: black;
+            overflow: auto;
+            padding-top: 60px;
+            width:100%;
+            height:100%;
+            top:0%;
+            left:0%;
+            z-index: 1;
+            position: fixed;
+        }
+        .modal-content{
+            background-color: rgb(243, 245, 245);
+            margin: 5% auto 15% auto;
+            border:1px solid #888;
+            width:80%;
+
+        }
+        .container{
+            padding: 16px;
+        }
+        span.psw{
+            float:right;
+            padding-top: 16px;
+            
+        }
+        </style>
+    </head>
+    <body>
+        <div class="modal">
+        <form class="modal-content animate">
+            <div class="imgcontainer">
+            <img src="https://media.istockphoto.com/vectors/purple-user-icon-in-the-circle-a-solid-gradient-vector-id1095289632?k=20&m=1095289632&s=170667a&w=0&h=Cv__2K1A4LeyqVmHZ3A7Vscmat1Kx5_1U5yYQkAKxzU=" / class=""avatar">
+            </div>
+            <div class="container">
+            <label>
+                UserName
+            </label>
+            <input type="text" placeholder="UserName"/>
+            <br/>
+            <label>
+                Password
+            </label>
+            <input type="password" placeholder="Password"/>
+            <br/>
+            <input type="checkbox">Remember me 
+            <button>Login</button>
+            <label>
+                <p>Forget<a href="forget.html">Password</a></p>
+            </label>
+            <label>
+                <p>No account?<a href="Signup.html">Signup</a></p>
+            </lable>
+            <br/>
+            </label>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
