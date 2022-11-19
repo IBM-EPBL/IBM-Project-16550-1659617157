@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://contzone-bucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/AuthenticateStyle.css">
+    <title>Login</title>
+
+</head>
+<body >
+    <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+        <div class="card card0 border-0">
+            <div class="row d-flex">
+                <div class="col-lg-6">
+                    <div class="card1 pb-5">
+                        <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+                           <h2 style="color:black;padding-top:150px;">CONTAINMENT <br>ZONE<br> ALERTING<br> APPLICATION</h2><br><br>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="card2 card border-0 px-4 py-5" method="post" action="/login">
+                        <h2 style="padding-left:200px;color:black" class="mb-0 mr-4 mt-2">LOGIN</h2>
+                        <div class="row px-3">
+                            <label class="mb-1"><h5 class="mb-0 text-sm">Enter your Email</h5></label>
+                            <input class="mb-4" type="text" name="email">
+                        </div>
+                        <div class="row px-3">
+                            <label class="mb-1"><h5 class="mb-0 text-sm">Enter valid Password</h5></label>
+                            <input type="password" name="password">
+                        </div>
+
+
+                        <div class="row mb-3 px-3">
+                            <button type="submit" class="btn btn-primary text-center">Login</button>
+                        </div>
+                        <div class="row mb-4 px-3">
+                            <h5 class="font-weight-bold">For registration <a class="btn btn-primary text-center " href="register">Register</a></h5>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="bg-black py-4">
+                <div class="row px-3">
+
+                    <div class="err"> {{error}}</div>
+                    <div class="success"> {{success}}</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
